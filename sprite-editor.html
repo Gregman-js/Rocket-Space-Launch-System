@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Launch</title>
+    <script src="lib/poly-decomp/decomp.min.js"></script>
+    <script src="lib/matter-js/build/matter.min.js"></script>
+    <script src="./editor/script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        canvas
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <img id="img-rocket" src="./img/rocket.png" alt="" style="display: none;">
+    <canvas id="canvas"></canvas>
+</body>
+</html>
